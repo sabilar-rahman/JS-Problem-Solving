@@ -4,8 +4,7 @@ Create an array of objects representing books with properties like title, author
 
 */
 
-
-// Array of objects representing books with Bangladeshi names
+// Array of objects representing books 
 const books = [
     { title: 'Padma Nadir Majhi', author: 'Manik Bandopadhyay', year: 1936 },
     { title: 'Lalsalu', author: 'Syed Waliullah', year: 1948 },
@@ -23,9 +22,7 @@ const books = [
     return titles; // Return the array of titles
   }
   
-  // Call the function and store the result
-  const bookTitles = getBookTitles(books);
-  
-  // Print the result
+ 
+  const bookTitles = getBookTitles(books); // Call the function and store the result
   console.log(bookTitles);
   
